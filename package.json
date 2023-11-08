@@ -1,0 +1,14 @@
+{
+  "name": "rev-coding-challenge-11-06",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Scott E. Nelson",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
