@@ -1,4 +1,5 @@
 const findMagicIndex = require("../MagicIndex/magicIndex");
+const powerSet = require("../PowerSet/powerSet");
 
 describe("Coding Challenge Tests", () => {
   describe("Magic Index", () => {
@@ -20,6 +21,11 @@ describe("Coding Challenge Tests", () => {
   });
 
   describe("Power Set", () => {
-    
+    test("Should return the Power Set of a given Set", () => {
+      const set = [1, 2];
+      const result = powerSet(set);
+      expect(result.length).toBe(4);
+      expect(result).toStrictEqual([[], [1], [2], [1, 2]]);
+    });
   });
 });
